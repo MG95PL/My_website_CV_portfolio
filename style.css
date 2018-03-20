@@ -1,0 +1,133 @@
+body
+{
+background-color: #303030;
+font-family: 'Lato', sans-serif;
+font-size: 16px;  
+margin-bottom: 0;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+}
+
+#container
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto; 
+}
+
+#header
+{
+color: #FFFFFF;
+text-align: left;
+font-size: 25px;
+padding: 10px; 
+}
+
+#menu
+{
+background-color: #252525;	
+padding: 10px; 
+color: 	#FFFFFF;
+text-align: center;
+}
+
+#cytat
+{
+	background-color: #b4b4b4;
+	opacity: 0.5;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	color:#000000;
+}
+
+#autor
+{
+	background-color: #b4b4b4;
+	opacity: 0.5;
+	padding: 20px;
+	text-indent: 700px;
+	font-size: 20px;
+	color:#000000;
+}
+
+#navi 
+{
+float: left;
+width: 250px;
+margin-top: 20px;
+margin-bottom: 20px;
+height: 600px;
+background-color:#BEBEBE;
+border-right: 2px dotted #666666;
+padding: 10px;
+color: #FFFFFF;
+text-align:center; 
+
+}
+
+#content
+{
+float: left;
+width: 648px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color:#dedede;
+height: 540px;
+padding: 40px;
+color: #000000;
+}
+
+#footer
+{
+margin-top: 20px;
+clear: both;
+padding: 20px;
+text-align: center;
+color: #FFFFFF; 
+}
+
+.Tbutton
+{
+	float: left;
+	height: 25px;
+	min-widthwidth: 50px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+}
+
+.Tbutton:hover
+{
+	background-color: #303030;
+	cursor: pointer;
+}
+
+.Lbutton
+{
+height: 25px;
+border-bottom: 2px dotted #444444;
+min-width: 80px;
+font-size: 18px;
+padding: 20px;
+color: #000000;	
+	
+}
+
+.Lbutton:hover
+{
+	background-color: #F36742;
+	cursor: pointer;
+	color: #FFFFFF;	
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	border-bottom: 2px dotted #444444;
+}
