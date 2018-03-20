@@ -3,17 +3,15 @@ body
 background-color: #303030;
 font-family: 'Lato', sans-serif;
 font-size: 16px;  
+margin-left: 0; 
+margin-right: 0;
 margin-bottom: 0;
 margin-top: 0;
-margin-left: 0;
-margin-right: 0;
 }
 
 #container
 {
-width: 1000px;
-margin-left: auto;
-margin-right: auto; 
+width: 100%;
 }
 
 #header
@@ -24,12 +22,27 @@ font-size: 25px;
 padding: 10px; 
 }
 
+#logo
+{
+width: 1000px; 
+margin-left: auto;
+margin-right: auto; 	
+}
+
 #menu
 {
 background-color: #252525;	
 padding: 10px; 
 color: 	#FFFFFF;
 text-align: center;
+}
+
+#content
+{
+width: 1000px; 
+margin-left: auto;
+margin-right: auto; 
+
 }
 
 #cytat
@@ -54,6 +67,8 @@ text-align: center;
 	color:#000000;
 }
 
+
+
 #navi 
 {
 float: left;
@@ -69,7 +84,7 @@ text-align:center;
 
 }
 
-#content
+#textbox
 {
 float: left;
 width: 648px;
@@ -81,10 +96,72 @@ padding: 40px;
 color: #000000;
 }
 
+#socials
+{	
+clear: both;
+text-align: center;
+background-color: #292929;
+
+}
+
+#socialdiv
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#fb
+{
+	float: left;
+	width: 250px;
+	height: 155px;
+}
+
+#fb:hover
+{
+	background-color: #4668B3;	
+}
+
+#yt
+{
+	float: left;
+	width:250px;
+	height: 155px;
+}
+
+#yt:hover
+{
+	background-color: #D94348;
+}
+
+#tw
+{
+	float: left;
+	width:250px;
+	height: 155px;
+}
+
+#tw:hover
+{
+	background-color: #3095D3;	
+}
+
+#gplus
+{
+	float: left;
+	width:250px;
+	height: 155px;	
+}
+
+#gplus:hover
+{
+	background-color: #d95333;	
+}
+
 #footer
 {
 margin-top: 20px;
-clear: both;
 padding: 20px;
 text-align: center;
 color: #FFFFFF; 
