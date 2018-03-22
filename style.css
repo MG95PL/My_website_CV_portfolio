@@ -111,16 +111,16 @@ background-color: #292929;
 	margin-right: auto; 
 }
 
-#fb
+#linkedIn
 {
 	float: left;
 	width: 250px;
 	height: 155px;
 }
 
-#fb:hover
+#linkedIn:hover
 {
-	background-color: #4668B3;	
+	background-color: #007bb5;	
 }
 
 #yt
@@ -135,16 +135,16 @@ background-color: #292929;
 	background-color: #D94348;
 }
 
-#tw
+#git
 {
 	float: left;
 	width:250px;
 	height: 155px;
 }
 
-#tw:hover
+#git:hover
 {
-	background-color: #3095D3;	
+	background-color: #FFFFFF;	
 }
 
 #gplus
