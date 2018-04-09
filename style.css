@@ -213,3 +213,12 @@ a.sociallink
 	text-decoration: none; 
 	color: #000000; 
 }
+
+.sticky
+{
+width: 100%;	
+position: fixed;
+left: 0;
+top: 0; 
+z-index: 100; 
+}
